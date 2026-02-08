@@ -5,11 +5,11 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+ API_ID = int(os.environ.get("API_ID", "28610005"))
+API_HASH = os.environ.get("API_HASH", "8d0a2d4b8efa0244a9c384edda490f50")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8227770499:AAFhHhSGHYLWQV_US7bfismruD2pAvWruhA")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "file_storeg_world_novel_01_bot")
+DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1003710379196"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
